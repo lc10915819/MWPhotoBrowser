@@ -6,16 +6,16 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "MWPhotoProtocol.h"
+#import <UIKit/UIKit.h>
 
 @interface MWCaptionView : UIToolbar
 
-// Init
+// Init  lichan
 - (id)initWithPhoto:(id<MWPhoto>)photo;
 
 // To create your own custom caption view, subclass this view
-// and override the following two methods (as well as any other
+// and override the following two methods (as well as any other  lichan
 // UIView methods that you see fit):
 
 // Override -setupCaption so setup your subviews and customise the appearance
@@ -26,7 +26,8 @@
 - (void)setupCaption;
 
 // Override -sizeThatFits: and return a CGSize specifying the height of your
-// custom caption view. With width property is ignored and the caption is displayed
+// custom caption view. With width property is ignored and the caption is
+// displayed
 // the full width of the screen
 - (CGSize)sizeThatFits:(CGSize)size;
 
